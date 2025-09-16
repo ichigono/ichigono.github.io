@@ -1,0 +1,56 @@
+		*{
+ margin : 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+    font-family:sans-serif;
+    background-color:#FFF2F7
+}
+
+@font-face {
+	font-family: 'Micro5Charted-Regular';
+	src: url('..Micro5Charted-Regular.ttf');
+}
+h1 {text-align: left;
+	color:#4A2222;
+}
+
+p { text-align: left;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	color:#504BC9
+}
+
+
+a {margin-right: 40px;
+	color: LightSlateGray}
+
+.today {
+    color: #4A2222;
+  }
+
+ .letter {text-align: center;
+    color: PaleVioletRed;
+  }
+
+
+ul{
+	margin-top: 20px;
+}
+
+li{
+	font-size: 13pt;
+	line-height: 20pt;
+	margin-bottom: 5pt;
+}
+
+img{
+    
+}
+
+@media screen and (max-width: 704px) {
+
+}
