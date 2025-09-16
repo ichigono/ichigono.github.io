@@ -1,0 +1,68 @@
+		*{
+ margin : 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+    text-align: center
+}
+
+details {
+    cursor: pointer;
+}
+
+.indent {
+    margin-left: 20px;
+}
+
+
+summary::marker {
+    color: ; 
+    font-size: ;
+    content: "..."; 
+}
+
+
+.indent::marker {
+    color: ; 
+    font-size: ; 
+    content: "✐✎✐";
+}
+
+figure {
+    width: 150px;
+    display: inline-block;
+}
+
+img {
+    width: 150px;
+}
+
+figcaption{
+    text-align: center;
+    background-color: #EDFFC2;
+}
+
+
+h1:hover {
+    background-color:lightpink;
+    font-style:small;
+    fomt-size: 50pt;
+    display: inline-block;
+}
+
+summary:hover {
+    background-color:#47FCCD;
+    font-style:small;
+    fomt-size: 50pt;
+    display: inline-block;
+}
+
+img:hover {
+    filter: grayscale(100%);
+}
+
+
+
