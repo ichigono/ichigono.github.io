@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'DOSSaemmul';
+    src: url('..DOSSaemmul.ttf');
+    }
+
+
+body {
+  margin-top: 20px;
+  font-family: sans-serif;
+  color:#543C3C ;
+  font-size: 11pt;
+  line-height: 15pt;
+  background-color: #FFF0FF
+}
+
+h1 {
+  font-family:DOSSaemmul;
+  text-align: center;
+  font-size: 13pt;
+  color:
+}
+
+table {
+  width: 300px;
+  margin: auto;
+  margin-top: 10px;
+  text-align: left;
+  border-spacing: px;
+  background-color:#FEFFF0
+}
+
+table, tr, td, th {
+  border: 1px solid black;
+}
+
+td {padding: 10px;}
+
+th {
+  font-weight: bold;
+  text-align: center;
+  background-color: #FFF0FF
+}
+
+th:hover {
+    background-color:#6CD9BA;
+    font-style:small;
+    fomt-size: 50pt;
+    display: ;
+}
+
+li {
+  margin-left: 10px;
+  color: #D400C2
+}
+
+Li::marker {
+    color: #6CD9BA; 
+    font-size:10px ;
+    content: "★"; 
+}
+
+Li:hover {
+    background-color:#6CD9BA;
+    font-style:small;
+    fomt-size: 50pt;
+    display: inline-block;
+}
+
+
+footer {
+  font-size: 9pt;
+  margin: 10px;
+  text-align: center;
+}
+
+.reading{ width: 90px;
+
+}
+
+img {
+    filter: grayscale(100%);
+}
+
+img:hover {
+    filter: grayscale(0%);
+}
+
+
+@media screen and (max-width: 704px) {
+
+}
+
+
