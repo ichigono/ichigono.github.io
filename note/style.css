@@ -6,7 +6,7 @@
 
 body {
     margin: 20px;
-    font-family:sans-serif;
+    font-family:DOSSaemmul;
     text-align: center;
     background-color:#323128;
     font-size: ;
@@ -30,26 +30,31 @@ p { color: #FFFCE5;}
 
 
 @font-face {
-    font-family: 'CafeMeongii';
-    src: url('..CafeMeongii.otf');
+    font-family: 'Apple Chancery';
+    src: url('..Apple Chancery.ttf');
     }
 
 
 
 .name {font-family:"DOSSaemmul";
-    color: ; 
+    color: #E3104F; 
     margin-top: 5px;
     font-size: 17px; 
     content: "✐✎✐";
 }
 
 
-.page {font-family:"DOSSaemmul";
+.page {font-family:"Apple Chancery";
     color: #E3104F; 
-    font-size: 14px;
+    font-size: 12px;
 
 }
 
+figcaption{
+    text-align: center;
+    fomt-size: 10pt;
+    background-color: #FFFCE5;
+}
 
 summary::marker {
     color: ; 
@@ -65,7 +70,6 @@ summary::marker {
 }
 
 
-
 figure {
     width: 140px;
     display: inline-block;
@@ -75,11 +79,6 @@ img {
     width: 140px;
 }
 
-figcaption{
-    text-align: center;
-    fomt-size: 20pt;
-    background-color: #FFFCE5;
-}
 
 
 h1:hover {
