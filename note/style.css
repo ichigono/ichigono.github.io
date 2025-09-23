@@ -6,15 +6,48 @@
 
 body {
     margin: 20px;
-    text-align: center
+    font-family:sans-serif;
+    text-align: center;
+    background-color:#323128;
+    font-size: ;
 }
 
 details {
+    color: #FFFCE5;
     cursor: pointer;
 }
 
+p { color: #FFFCE5;}
+
 .indent {
     margin-left: 20px;
+}
+
+@font-face {
+    font-family: 'DOSSaemmul';
+    src: url('..DOSSaemmul.ttf');
+    }
+
+
+@font-face {
+    font-family: 'CafeMeongii';
+    src: url('..CafeMeongii.otf');
+    }
+
+
+
+.name {font-family:"DOSSaemmul";
+    color: ; 
+    margin-top: 5px;
+    font-size: 17px; 
+    content: "✐✎✐";
+}
+
+
+.page {font-family:"DOSSaemmul";
+    color: #E3104F; 
+    font-size: 14px;
+
 }
 
 
@@ -31,23 +64,26 @@ summary::marker {
     content: "✐✎✐";
 }
 
+
+
 figure {
-    width: 150px;
+    width: 140px;
     display: inline-block;
 }
 
 img {
-    width: 150px;
+    width: 140px;
 }
 
 figcaption{
     text-align: center;
-    background-color: #EDFFC2;
+    fomt-size: 20pt;
+    background-color: #FFFCE5;
 }
 
 
 h1:hover {
-    background-color:lightpink;
+    background-color:gray;
     font-style:small;
     fomt-size: 50pt;
     display: inline-block;
@@ -64,5 +100,9 @@ img:hover {
     filter: grayscale(100%);
 }
 
+.note {margin-top: 50px;
+    margin-bottom: 150px; 
+    width: 500px;
+}
 
 
