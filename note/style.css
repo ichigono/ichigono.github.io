@@ -4,9 +4,21 @@
  box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'DOSSaemmul';
+    src: url('../DOSSaemmul.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Apple Chancery';
+    src: url('../Apple Chancery.ttf') format('truetype');
+}
+    
+
 body {
     margin: 20px;
-    font-family:DOSSaemmul;
+    font-family:'DOSSaemmul',sans-serif;
     text-align: center;
     background-color:#323128;
     font-size: ;
@@ -22,18 +34,6 @@ p { color: #FFFCE5;}
 .indent {
     margin-left: 20px;
 }
-
-@font-face {
-    font-family: 'DOSSaemmul';
-    src: url('..DOSSaemmul.ttf');
-    }
-
-
-@font-face {
-    font-family: 'Apple Chancery';
-    src: url('..Apple Chancery.ttf');
-    }
-
 
 
 .name {font-family:"DOSSaemmul";
@@ -52,7 +52,7 @@ p { color: #FFFCE5;}
 
 figcaption{
     text-align: center;
-    fomt-size: 10pt;
+    font-size: 10pt;
     background-color: #FFFCE5;
 }
 
@@ -78,7 +78,6 @@ figure {
 img {
     width: 140px;
 }
-
 
 
 h1:hover {
