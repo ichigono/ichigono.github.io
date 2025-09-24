@@ -18,10 +18,9 @@
 
 body {
     margin: 20px;
-    font-family:'DOSSaemmul',sans-serif;
+    font-family:'DOSSaemmul',Arial, Helvetica, sans-serif;
     text-align: center;
     background-color:#323128;
-    font-size: ;
 }
 
 details {
