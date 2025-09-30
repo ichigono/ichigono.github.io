@@ -1,0 +1,54 @@
+		*{
+ margin : 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+    font-family:sans-serif;
+    background-color:LavenderBlush
+}
+
+@font-face {
+	font-family: 'Micro5Charted-Regular';
+	src: url('..Micro5Charted-Regular.ttf');
+}
+h1 {text-align: center;
+	font-family:"Micro5Charted-Regular";
+	color:PaleVioletRed
+}
+
+p { text-align: center;
+	margin-top: 20px;
+	color:PaleVioletRed
+}
+
+
+a {margin-right: 40px;
+	color: LightSlateGray}
+
+.blog{color: DarkGray}
+
+
+ul{
+	margin-top: 20px;
+}
+
+li{
+	font-size: 13pt;
+	line-height: 20pt;
+	margin-bottom: 5pt;
+}
+
+img{
+	width: 500px;
+	hyphens: 350px;
+}
+
+
+
+
+@media screen and (max-width: 704px) {
+
+}
