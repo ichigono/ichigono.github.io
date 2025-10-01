@@ -14,7 +14,7 @@ body {
     height: 100%;
     width: 300px;
     border-right: 1.5px solid pink;
-    background-color: #9FF5D5;
+    background-color: #786254;
 }
 
 ol {
@@ -32,7 +32,7 @@ ol {
     padding-top: 180px;
     background-color: #FFFFEB;
     word-break: keep-all;
-    color:#614F42;
+    color:#949494;
 }
 
 .content {
@@ -50,15 +50,15 @@ img {;
     margin-bottom: 10px;
 }
 
-li {color: #614F42;
+li {color: #DBBFAD;
 }
 
 
 a {
-    color: #614F42;
+    color: #DBBFAD;
 }
 
-a:visited {color: #866C9E}
+a:visited {color: #FCD9EB}
 
 @media screen and (max-width: 704px) {
 
