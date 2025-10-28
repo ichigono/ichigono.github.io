@@ -1,0 +1,105 @@
+		*{
+ margin : 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'DOSSaemmul';
+    src: url('../DOSSaemmul.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Apple Chancery';
+    src: url('../Apple Chancery.ttf') format('truetype');
+}
+    
+
+body {
+    margin: 20px;
+    font-family:'DOSSaemmul','Apple Chancery',Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color:#323128;
+}
+
+details {
+    color: #FFFCE5;
+    cursor: pointer;
+}
+
+p { color: #FFFCE5;}
+
+.indent {
+    margin-left: 20px;
+}
+
+
+.name {font-family:"DOSSaemmul";
+    color: #E3104F; 
+    margin-top: 5px;
+    font-size: 17px; 
+    content: "✐✎✐";
+}
+
+
+.page {font-family:"Apple Chancery";
+    color: #E3104F; 
+    font-size: 12px;
+
+}
+
+figcaption{
+    text-align: center;
+    font-size: 10pt;
+    background-color: #FFFCE5;
+}
+
+summary::marker {
+    color: ; 
+    font-size: ;
+    content: "..."; 
+}
+
+
+.indent::marker {
+    color: ; 
+    font-size: ; 
+    content: "✐✎✐";
+}
+
+
+figure {
+    width: 140px;
+    display: inline-block;
+}
+
+img {
+    width: 140px;
+}
+
+
+h1:hover {
+    background-color:gray;
+    font-style:small;
+    fomt-size: 50pt;
+    display: inline-block;
+}
+
+summary:hover {
+    background-color:#47FCCD;
+    font-style:small;
+    fomt-size: 50pt;
+    display: inline-block;
+}
+
+img:hover {
+    filter: grayscale(100%);
+}
+
+.note {margin-top: 50px;
+    margin-bottom: 150px; 
+    width: 500px;
+}
+
+

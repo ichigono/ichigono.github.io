@@ -1,0 +1,24 @@
+		*{
+ margin : 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+    font-family:sans-serif;
+    background-color:LavenderBlush
+}
+
+p { text-align: left;
+    margin-top: 20px;
+    color:#5F4945
+
+}
+
+a {margin-right: 40px;
+	color: LightSlateGray}
+
+@media screen and (max-width: 704px) {
+
+}

@@ -1,0 +1,72 @@
+* {
+        margin: 0;
+        padding: 0;
+      }
+     
+      body {
+        overflow: hidden;
+        line-height: 1.5;
+        word-break: keep-all;
+        color: black;
+        cursor: pointer;
+        height: 100%;
+      }
+
+      div {
+         height: 100%;
+        background-position: center;
+       background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+
+      .one {
+  background-image: url("https://d2w9rnfcy7mm78.cloudfront.net/40651809/original_6be29a6cacb23cc18badf348f2e8e01e.png?1761631794?bc=0");
+}
+
+      .two {
+  background-image: url("https://d2w9rnfcy7mm78.cloudfront.net/40651808/original_528bda5bc5db3ea093fb15f2125a1db9.png?1761631794?bc=0");
+}
+
+    .three {
+  background-image: url("https://d2w9rnfcy7mm78.cloudfront.net/40651868/original_1a27abd186c276ead4d4e6e12f68cf7d.png?1761632263?bc=0");
+}
+
+    .four {
+  background-image: url("https://d2w9rnfcy7mm78.cloudfront.net/40651867/original_8b409edbf9a23078dc1323d04cc12377.png?1761632263?bc=0");
+}
+
+    .five {
+  background-image: url("https://d2w9rnfcy7mm78.cloudfront.net/40651869/original_9c93fa6f115d930ac3a0229012bcad65.png?1761632264?bc=0");
+}
+
+      a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+        background-color: gainsboro;
+        color: black;
+        text-decoration: none;
+      }
+
+      a:visited {
+        color: black;
+      }
+
+      a:not(:first-child) {
+        display: none;
+      }
+
+      a:target {
+        display: block;
+      }
+
+
+      @media screen and (max-width: 704px){
+    
+
+
+    
