@@ -1,0 +1,78 @@
+		*{
+ margin : 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'DOSSaemmul';
+    src: url('../DOSSaemmul.ttf') format('truetype');
+}
+
+body {text-align: center;
+     color: #6E6E6E;
+     font-family:'DOSSaemmul',Arial, Helvetica, sans-serif;
+}
+
+div{
+	position:absolute;
+    height: 100%;
+}
+
+h2{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #540808;
+    text-decoration: underline;
+}
+
+
+	.quarter{
+
+        }
+
+
+
+    .uno {
+            background-color: #FFD1EE;
+            width:30%;
+        }
+
+    .dos {
+            background-color: #FFD59E;
+            left: 30%;
+            width:14%;
+        }
+
+    .tres {
+           background-color: #D5B8F5;
+            left: 44%;
+            width:14%;
+        }
+
+    .cuatro {
+           background-color: #94F7D9;
+           left: 58%;
+            width:14%;
+        }
+
+    .cinco {
+           background-color: #D8FFA6;
+           left: 72%;
+            width:14%;
+        }
+
+    .seis {
+           background-color: #CFC1BE;
+           left: 86%;
+            width:14%;
+        }
+
+
+
+
+
+@media screen and (max-width: 704px) {
+
+}

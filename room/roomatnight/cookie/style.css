@@ -1,0 +1,41 @@
+		*{
+ margin : 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+html { 
+  background: url(https://d2w9rnfcy7mm78.cloudfront.net/40652242/original_15ca202ebdd94d74fb835bda554bf082.png?1761634749?bc=0) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.specialtextheart {
+    position: absolute;
+    left: 700px;
+    top: 400px;
+    width: 90px;
+}
+
+.pudding {
+    position: absolute;
+    left: 600px;
+    top: 300px;
+    width: 90px;
+}
+
+.mellow {
+    position: absolute;
+    left: 800px;
+    top: 300px;
+    width: 90px;
+}
+@media screen and (max-width: 704px) {
+
+}

@@ -17,8 +17,6 @@
 
 <img src="https://d2w9rnfcy7mm78.cloudfront.net/40651961/original_830c8e4f5d8a8c11d8cc70db761c0ca3.png?1761632905?bc=0" class="hello"></a>
 
-<a href="https://ichigono.github.io/room/roomatnight/"><img src="https://d2w9rnfcy7mm78.cloudfront.net/40655788/original_e846b083dfef4145380cb28e218fe93b.png?1761649282?bc=0" class="night"></a>
-
 <a href="https://ichigono.github.io/room/IchigonoYume/"><img src="https://d2w9rnfcy7mm78.cloudfront.net/40654221/original_4e056a0481e85768309594a6241dd4ae.png?1761645308?bc=0" class="yumeclock"></a>
 
 <a href="https://ichigono.github.io/room/blog/"><img src="https://d2w9rnfcy7mm78.cloudfront.net/40477684/original_8a39533a980008ae9a52f7a07630e3e6.png?1761049475?bc=0" class="blog"></a>
@@ -33,5 +31,13 @@
 
 <a href="https://ichigono.github.io/room/cookie/"><img src="https://d2w9rnfcy7mm78.cloudfront.net/40652134/original_fcc8f4c10ea5090f2b9973f3623bc09e.png?1761634152?bc=0" class="cookie"></a>
 
+<div class="darkness"></div>
+<script>
+  document.addEventListener("mousemove", (e) => {
+    const darkness = document.querySelector(".darkness");
+    darkness.style.setProperty("--x", e.clientX + "px");
+    darkness.style.setProperty("--y", e.clientY + "px");
+  });
+</script>
 </body>
 </html>
