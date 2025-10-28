@@ -16,12 +16,32 @@ html {
   background-size: cover;
 }
 
+
+.room {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 400px;
+}
+
 .hello {
     position: absolute;
-    left: 30px;
-    top: 30px;
-    width: 180px;
+    left: 200px;
+    top: 200px;
+    width: 200px;
     opacity: 0.8;
+}
+
+.hello:hover {
+  filter: brightness(1.2);
+  transition: filter 0.3s ease-in-out;
+}
+
+.yumeclock {
+    position: absolute;
+    left: 500px;
+    top: 300px;
+    width: 80px;
 }
 
 .blog {
