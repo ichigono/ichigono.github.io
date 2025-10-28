@@ -6,6 +6,7 @@
 
 body {
     margin: 20px;
+    overflow: hidden;
 }
 
 html { 
@@ -19,22 +20,46 @@ html {
 
 .room {
     position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 400px;
+    left: 10px;
+    top: 10px;
+    width: 330px;
 }
 
 .hello {
     position: absolute;
-    left: 200px;
-    top: 200px;
-    width: 200px;
+    left: 220px;
+    top: 220px;
+    width: 160px;
     opacity: 0.8;
 }
 
 .hello:hover {
   filter: brightness(1.2);
   transition: filter 0.3s ease-in-out;
+}
+
+.mode {
+    position: absolute;
+    top: 85%;
+    left: 5%;
+    width:150px;
+    opacity: 0.9;
+}
+
+.night {
+    position: absolute;
+    top: 92%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+}
+
+.pokemon {
+    position: absolute;
+    top: 92%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    width: 50px;
 }
 
 .yumeclock {
@@ -92,18 +117,18 @@ html {
 
 
 
-img:not(.hello) {
+img:not(.hello,.night,.mode,.room,.pokemon  ) {
   transform-origin: center bottom;
   will-change: transform;
   cursor: pointer;
 }
 
-img:not(.hello):hover {
+img:not(.hello,.night,.mode,.room,.pokemon  ):hover {
   animation: bounce 0.6s ease-out both;
 }
 
 /* 클릭 느낌 살짝 */
-img:not(.hello):active {
+img:not(.hello,.night,.mode,.room,.pokemon ):active {
   transform: translateY(2px) scale(0.98);
 }
 
@@ -118,7 +143,7 @@ img:not(.hello):active {
 
 /* 모션 최소화 환경 존중 */
 @media (prefers-reduced-motion: reduce) {
-  img:not(.hello) {
+  img:not(.hello,.night,.mode ) {
     animation: none !important;
     transition: none !important;
   }
@@ -126,5 +151,97 @@ img:not(.hello):active {
 
 
 @media screen and (max-width: 704px) {
+
+body {overflow: hidden;}
+
+.room {
+    position: absolute;
+    left: 15%;
+    top: 15px;
+    width: 270px;
+}
+
+.hello {
+    position: absolute;
+    left: 35px;
+    top: 190px;
+    width: 120px;
+    opacity: 0.8;
+}
+
+
+.mode {
+    position: absolute;
+    top: 90%;
+    left: 30%;
+    width:150px;
+    opacity: 0.9;
+}
+
+.night {
+    position: absolute;
+    top: 96%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+}
+
+.pokemon {
+    position: absolute;
+    top: 91%;
+    left: 48%;
+    transform: translate(+50%, +50%);
+    width: 33px;
+}
+
+.yumeclock {
+    position: absolute;
+    left: 80px;
+    top: 300px;
+    width: 55px;
+}
+
+.blog {
+    position: absolute;
+    left: 40px;
+    top: 500px;
+    width: 55px;
+}
+
+.diary {
+    position: absolute;
+    left: 170px;
+    top: 382px;
+    width: 75px;
+}
+
+.iam {
+    position: absolute;
+    left: 100px;
+    top: 390px;
+    width: 75px;
+}
+
+.sandwich {
+    position: absolute;
+    left: 300px;
+    top: 470px;
+    width: 60px;
+}
+
+.note {
+    position: absolute;
+    left: 250px;
+    top: 530px;
+    width: 70px;
+}
+
+.cookie {
+    position: absolute;
+    left: 300px;
+    top: 320px;
+    width: 45px;
+    }
+
 
 }

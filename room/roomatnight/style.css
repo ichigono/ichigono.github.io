@@ -153,5 +153,87 @@ img:not(.hello):active {
 }
 
 @media screen and (max-width: 704px) {
+    body {overflow: hidden;}
+
+.room {
+    position: absolute;
+    left: -10px;
+    top: -15px;
+    width: 400px;
+}
+
+.hello {
+    position: absolute;
+    left: 26px;
+    top: 210px;
+    width: 120px;
+    opacity: 0.8;
+}
+
+
+.mode {
+    position: absolute;
+    top: 90%;
+    left: 30%;
+    width:150px;
+    opacity: 0.9;
+}
+
+.night {
+    position: absolute;
+    top: 96%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+}
+
+.yumeclock {
+    position: absolute;
+    left: 80px;
+    top: 300px;
+    width: 55px;
+}
+
+.blog {
+    position: absolute;
+    left: 40px;
+    top: 500px;
+    width: 55px;
+}
+
+.diary {
+    position: absolute;
+    left: 170px;
+    top: 382px;
+    width: 75px;
+}
+
+.iam {
+    position: absolute;
+    left: 100px;
+    top: 390px;
+    width: 75px;
+}
+
+.sandwich {
+    position: absolute;
+    left: 300px;
+    top: 470px;
+    width: 60px;
+}
+
+.note {
+    position: absolute;
+    left: 250px;
+    top: 530px;
+    width: 70px;
+}
+
+.cookie {
+    position: absolute;
+    left: 300px;
+    top: 320px;
+    width: 45px;
+    }
 
 }
